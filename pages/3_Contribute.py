@@ -1,7 +1,7 @@
 import streamlit as st 
 import pandas as pd
 
-st.set_page_config(page_title='Contibute',page_icon='icon/conti.png',layout = 'wide')
+st.set_page_config(page_title='Contibute',page_icon='icon/contri.png',layout = 'wide')
 
 def contribution_page():
     st.header("Contribute data to our Project")
