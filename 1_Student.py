@@ -196,7 +196,7 @@ def send_mail_to_user(email,val):
         smtp.send_message(msg)
 
 
-option = [,'Placement Prediction']
+option = ['Placement Prediction']
 
 
 with st.sidebar:
