@@ -1,0 +1,29 @@
+credentials:
+  usernames:
+    stygian:
+      email: 2k21cse137@kiot.ac.i
+      name: Shabari K S
+      password: $2b$12$bFYy5cAOclBZm6yvINoPIes95k28N8SMly1FjR.K/Jim82KczcowS
+    developer:
+      email: 2k21cse134@kiot.ac.in
+      name: Sathyaram R
+      password: $2b$12$vm9wO9fqgbHgxfu9FK9SGexC2urU/cqpHz9Ad9mEVzogahqvs5ILK
+    ethicalhacker:
+      email: 2k21cse206@kiot.ac.in
+      name: Viyasan S
+      password: $2b$12$ltR6ggyV2vj3Wqt886XibOtfNdu6hHbpmFgqH.MefBkWtU5Qe3c/e
+    test:
+      email: test@innavotia.com
+      name: Test
+      password: $2b$12$PKjd9T3OUHowiwmA8yCPjOl0oGjuVK.ajUaWc.qojr2rQtKuP7wj2
+    vibav:
+      email: 2k21cse177@kiot.ac.in
+      name: Vibav
+      password: $2b$12$TwpbaoLM2Ru61V.w105a8uEgVj/yV8IDHwaYQH7/8P9qEUhvu87ei
+cookie:
+  expiry_days: 30
+  key: shabari
+  name: staffs_login_detail
+preauthorized:
+  emails:
+  - 2k21cse137@kiot.ac.in

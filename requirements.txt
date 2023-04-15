@@ -1,0 +1,8 @@
+streamlit 
+streamlit-authenticator
+streamlit-option-menu
+matplotlib
+bz2file
+scikit-learn 
+numpy
+pandas
