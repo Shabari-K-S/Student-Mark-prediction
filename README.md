@@ -48,11 +48,6 @@
  * Users can also contribute their data.
  
  
-## How to Install
 
-```
-git clone https://github.com/Shabari-K-S/Innovatio-Savvy.git
-python3 -m streamlit run 1_Student.py
-```
 
 
