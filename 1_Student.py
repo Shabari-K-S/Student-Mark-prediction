@@ -195,13 +195,8 @@ def send_mail_to_user(email,val):
         smtp.login(email_address, email_password)
         smtp.send_message(msg)
 
-data = bz.BZ2File('model.pbz2', 'rb')
-pipe = pkl.load(data)
 
-
-
-
-option = ['Semester Result Prediction','Placement Prediction']
+option = [,'Placement Prediction']
 
 
 with st.sidebar:
@@ -212,49 +207,6 @@ with st.sidebar:
 
 
 if selected == option[0]:
-    st.title("Semester Result Prediction:")
-    c,c0 = st.columns([2,2])
-
-    c1,c2,c3 = st.columns([3,1,3])
-
-    
-    with c:
-        email = st.text_input("Enter your email-id : ")
-    
-    with c1:
-        iat_1 = st.number_input("Enter your IAT-1 marks :",min_value=0,max_value=100)
-
-        hos = st.number_input("Hours spent for studying : ",min_value=0,max_value=8)
-    with c3:
-        iat_2 = st.number_input("Enter your IAT-2 marks :",min_value=0,max_value=100)
-
-        hoe = st.number_input("Hours spent for entertainment : ",min_value=0,max_value=8)
-
-    attendence = st.slider("Your Attendence Precentage : ",min_value=0,max_value=100)
-
-    if attendence < 75:
-        st.warning("Note : If your attendence is less then 75% your are not eligible")
-    
-    if email != "" :
-        btn = st.button("Submit")
-        if btn:
-            my_bar = st.progress(0, text="Prediction is going on...")
-
-            for percent_complete in range(100):
-                time.sleep(0.1)
-                my_bar.progress(percent_complete + 1, text="Prediction is going on...")
-            time.sleep(0.5)
-            iat = (iat_1+iat_2)/2
-            data = [hos,hoe,iat,attendence]
-            res = pipe.predict([data])
-            if res:
-                st.success(f"You may pass this examiniation.")
-                send_mail_to_user(email,1)
-            else:
-                st.error(f"You may fail try to improve.")
-                send_mail_to_user(email,0)
-            my_bar.empty()
-if selected == option[1]:
     data_2 = bz.BZ2File('model_2.pbz2', 'rb')
     pipe_2 = pkl.load(data_2)
 
