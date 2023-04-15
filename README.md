@@ -2,7 +2,7 @@
 
 ## To have a live test:
 
-  link :https://shabari-k-s-test-innavotia-1-home-6s9pjc.streamlit.app/
+  link :https://shabari-k-s-student-mark-prediction-1-student-hq5o15.streamlit.app/
   
   #### For Testing
   
