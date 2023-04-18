@@ -128,7 +128,7 @@ def fail_fun():
 
 
 def send_mail_to_user(email,val):
-    email_address = st.secrets[app_mail]
+    email_address = "innovatioki123@gmail.com"
     email_password = st.secrets[app_password]
 
     if val == 1:
