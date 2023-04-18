@@ -129,7 +129,7 @@ def fail_fun():
 
 def send_mail_to_user(email,val):
     email_address = "innovatioki123@gmail.com"
-    email_password = st.secrets[app_password]
+    email_password = "gdhdvfvpzawdgmim"
 
     if val == 1:
         context = pass_fun()
