@@ -106,6 +106,7 @@ if authentication_status == None:
             }
         </style>
     """
+    st.set_page_config(layout="centered")
     st.markdown(f"{login_unsucess}",unsafe_allow_html=True)
 
 if authentication_status == True:
