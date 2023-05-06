@@ -226,7 +226,7 @@ if selected == option[0]:
          'Enter your stream : ',
         ('--Select--','Electronics And Communication', 'Computer Science', 'Information Technology','Mechanical','Electrical','Civil'))
 
-        cgpa = st.number_input("Enter your CGPA: ",min_value=0,max_value=10,step=1)
+        cgpa = st.number_input("Enter your CGPA: ",min_value=0.0,max_value=10.0,step=0.01)
     with c6:
         stream = {'Electronics And Communication':0, 'Computer Science':1,
             'Information Technology':2, 'Mechanical':3, 'Electrical':4, 'Civil':5}
