@@ -10,7 +10,7 @@ import time
 data = bz.BZ2File('model.pbz2', 'rb')
 pipe = pkl.load(data)
 
-st.set_page_config(page_icon="icon/staffs.png",page_title="Institution")
+st.set_page_config(page_icon="icon/staffs.png",page_title="Institution",layout='centred')
 
 import yaml
 from yaml.loader import SafeLoader
