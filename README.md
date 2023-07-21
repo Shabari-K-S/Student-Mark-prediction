@@ -2,7 +2,7 @@
 
 ## To have a live test:
 
-  link :https://shabari-k-s-student-mark-prediction-1-student-hq5o15.streamlit.app/
+  link : [Press here](https://placement-prediction-hq5o.streamlit.app/)
   
   #### For Testing
   
