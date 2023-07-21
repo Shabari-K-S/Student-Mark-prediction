@@ -2,6 +2,6 @@ streamlit-authenticator
 streamlit-option-menu
 matplotlib
 bz2file
-scikit-learn 
+scikit-learn===1.2.2
 numpy
 pandas
