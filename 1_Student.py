@@ -58,7 +58,24 @@ def pass_fun():
     Scribd: https://www.scribd.com/
     ManyBooks: https://manybooks.net/
     E-Books Directory: https://www.e-booksdirectory.com/ """]
-    l = [skills, books]
+    placement = ["""
+Dear student,
+
+I am thrilled to extend my warmest congratulations on your exceptional academic performance. Your hard work, dedication, and commitment to your studies have truly paid off, and you should be proud of your achievements.
+
+It gives me immense pleasure to share with you some valuable resources that can help you further develop your skills and knowledge to prepare for your future endeavors. Here are some websites that you can explore to enhance your learning and gain valuable skills for your placement:
+
+Ambitionbox: https://www.ambitionbox.com
+AceTheInterview: https://www.acetheinterview.com/
+GeeksforGeeks: https://www.geeksforgeeks.org/
+LeetCode: https://leetcode.com/
+Gainlo: http://www.gainlo.co/
+CareerCup: https://www.careercup.com/
+CoderCareer: https://www.codercareer.com/
+InterviewUp: https://www.interviewup.com/
+InterviewBest: https://www.interviewbest.com/
+IndiaBIX: https://www.indiabix.com/"""]
+    l = [skills,placement, books]
     i= [0,1,2]
     return random.choice(l[random.choice(i)])
 
