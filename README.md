@@ -2,7 +2,7 @@
 
 ## To have a live test:
 
-  link : [Press here](https://placement-prediction-hq5o.streamlit.app/)
+  link : [Press here](https://studentprediction.streamlit.app/)
   
   #### For Testing
   
