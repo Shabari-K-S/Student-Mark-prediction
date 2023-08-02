@@ -195,6 +195,10 @@ def send_mail_to_user(email,val):
         smtp.login(email_address, email_password)
         smtp.send_message(msg)
 
+
+data = bz.BZ2File('model.pbz2', 'rb')
+pipe = pkl.load(data)
+
 option = ['Semester Result Precdition','Placement Prediction']
 
 
